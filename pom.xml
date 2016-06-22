@@ -75,6 +75,7 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
 						<configuration>
+							<skip>true</skip>
 							<testFailureIgnore>true</testFailureIgnore>
 						</configuration>
 					</plugin>
@@ -84,8 +85,8 @@
 	</profiles>
 	<properties>
 		<!-- Common libs -->
-		<spring.bom.version>3.2.9.RELEASE</spring.bom.version>
-		<javassist_version>3.15.0-GA</javassist_version>
+		<spring.bom.version>4.2.4.RELEASE</spring.bom.version>
+		<javassist_version>3.18.2-GA</javassist_version>
 		<netty_version>3.7.0.Final</netty_version>
 		<mina_version>1.1.7</mina_version>
 		<grizzly_version>2.1.4</grizzly_version>
